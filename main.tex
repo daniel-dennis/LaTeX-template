@@ -1,0 +1,23 @@
+\documentclass[11pt]{article}
+\usepackage{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage[style=authoryear]{biblatex}
+\usepackage{fancyhdr}
+\addbibresource{ref.bib}
+
+%% Uncomment this for a dark-themed document
+% \definecolor{darkgrey}{rgb}{0.117,0.117,0.117}
+% \definecolor{lightgrey}{rgb}{0.828,0.828,0.828}
+% \pagecolor{darkgrey}
+% \color{lightgrey}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{foo}
+\rhead{Daniel Dennis}
+
+\begin{document}
+Hello, world!
+\addcontentsline{toc}{part}{References}
+\printbibliography
+\end{document}
